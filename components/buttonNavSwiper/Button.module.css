@@ -1,0 +1,31 @@
+.arrow-prev {
+  z-index: 10;
+  left: calc(100% - 45px);
+  position: absolute;
+  top: 30%;
+  font-size: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: #eee;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.arrow-next {
+  z-index: 10;
+  right: calc(100% - 45px);
+  position: absolute;
+  top: 30%;
+  font-size: 50px;
+  cursor: pointer;
+  background-color: #eee;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5rem;
+}/*# sourceMappingURL=Button.module.css.map */

@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.basket {
+
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    color: $green;
+  }
+
+  span {
+    position: absolute;
+    top: 0rem;
+    right: -0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: $green;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+}
